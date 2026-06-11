@@ -10,18 +10,19 @@ if(loginRequest === "Admin".toUpperCase()) {
         alert("welcome!");
     
     // if canceled or esc return canceled
-    }elseif(password === null) {
+    } else if (password === null) {
         alert("canceled");
-    }else {
+
+    } else {
         alert("wrong password");
     }
 
 //If canceled / escape show canceled
-}elseif(loginRequest === null){
+} else if (loginRequest === null) {
     alert("canceled");  
     
 // if another string show i don't know you
-}else{ 
-    alert ("I don't know you")
+} else { 
+    alert ("I don't know you");
 }
 
