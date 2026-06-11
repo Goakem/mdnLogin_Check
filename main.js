@@ -2,7 +2,7 @@
 let loginRequest = (prompt("Who is there?")).toUpperCase();
 
 //enters admin prompt for password
-if(loginRequest === "ADMIN".toUpperCase()) {
+if(loginRequest === "ADMIN") {
     let password = prompt("password?");
 
     // if equals the master show "Welcome!"
