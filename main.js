@@ -1,8 +1,8 @@
 // prompt user for login
-let loginRequest = prompt("Who is there?");
+let loginRequest = (prompt("Who is there?")).toUpperCase();
 
 //enters admin prompt for password
-if(loginRequest === "Admin".toUpperCase()) {
+if(loginRequest === "ADMIN".toUpperCase()) {
     let password = prompt("password?");
 
     // if equals the master show "Welcome!"
@@ -17,7 +17,6 @@ if(loginRequest === "Admin".toUpperCase()) {
         alert("wrong password");
     }
 
-    alert("Welcome!");
 
 //If canceled / escape show canceled
 } else if (loginRequest === null) {
