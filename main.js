@@ -17,6 +17,8 @@ if(loginRequest === "Admin".toUpperCase()) {
         alert("wrong password");
     }
 
+    alert("Welcome!");
+
 //If canceled / escape show canceled
 } else if (loginRequest === null) {
     alert("canceled");  
